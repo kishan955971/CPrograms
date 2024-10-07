@@ -14,7 +14,7 @@ int main()
     printf("4. Error");
     while (1)
     {
-
+ 
         printf("\nPlease choose a number between 1 and 4\n");
         scanf("%d", &givenanswer);
         if (givenanswer < 1 || givenanswer > 4)
