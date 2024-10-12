@@ -1,36 +1,19 @@
 #include<stdio.h>
 int main()
 {
-    int a[]={1,2,3,5,6,7,9,4,3};
-    int size=sizeof(a)/sizeof(int);
-    int i,t;
-    
-    for(i=0;i<=size-1;i++)
+    int n=7,i,j,condition;
+    for(i=1;i<=n;i++)
     {
-       
-
-        if(a[i]%2==0)
-        {
-           
-
-
-        }
-
-
+    for(j=1;j<=n;j++)
+    {
+        condition=;
+        if(condition)
+        printf("0");
+        else
+        printf(" ");
     }
-        
-        
-        
-        
-        
-        
-   
-             t=a[4];
-        a[4]=a[7];
-        a[7]=t;
-         printf("%d",a[i]);
-        
+        printf("\n");
+    }
+        return 0;
 
-    printf("\n");
-    return 0;
 }
