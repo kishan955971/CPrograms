@@ -26,4 +26,7 @@ t=6-t=2
 0--1=1
 
  
-![alt text](image-3.png)
+![
+](image-3.png)
+
+![alt text](image-4.png)

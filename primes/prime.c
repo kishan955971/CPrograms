@@ -13,7 +13,7 @@ for(i=5;i<=n;i=i+t)
 t=6-t;
 	limit=(int)sqrt(i);
 	isprime=1;
-	for(j=3;j<=limit;j=j+2)
+	for(j=5;j<=limit;j=j+2)
 	{
 		loopcount++;
 	if(i % j==0)
