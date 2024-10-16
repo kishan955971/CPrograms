@@ -2,7 +2,7 @@
 #include<math.h>
 int main()
 {
-	int i,n=500,j,isprime,limit,count=0,loopcount=0,t;
+	int i,n=500,j,isprime,limit,count=0,loopcount=0,t,p;
 //printf("Enter value of number=");
 //	scanf("%d",&n);
 printf("2,3");
@@ -13,8 +13,11 @@ for(i=5;i<=n;i=i+t)
 t=6-t;
 	limit=(int)sqrt(i);
 	isprime=1;
-	for(j=5;j<=limit;j=j+2)
+
+	p=4;
+	for(j=5;j<=limit;j=j+p)
 	{
+	p=6-p;
 		loopcount++;
 	if(i % j==0)
 	{
@@ -25,7 +28,6 @@ t=6-t;
 	}
 	if(isprime)
 	{
-	
 		printf("%d,",i);
 		count++;
 	}
