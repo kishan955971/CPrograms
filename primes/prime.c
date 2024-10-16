@@ -12,7 +12,7 @@ for(i=3;i<=n;i=i+2)
 
 	limit=(int)sqrt(i);
 	isprime=1;
-	for(j=2;j<=limit;j++)
+	for(j=3;j<=limit;j=j+2)
 	{
 		loopcount++;
 	if(i % j==0)
