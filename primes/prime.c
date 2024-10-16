@@ -5,7 +5,9 @@ int main()
 	int i,n=500,j,isprime,limit,count=0,loopcount=0;
 //printf("Enter value of number=");
 //	scanf("%d",&n);
-for(i=2;i<=n;i++)
+printf("%d,",2);
+count++;
+for(i=3;i<=n;i=i+2)
 {
 
 	limit=(int)sqrt(i);
